@@ -29,6 +29,9 @@ dependencies {
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
+    compile("commons-lang:commons-lang:2.6")
+    compile("io.swagger:swagger-annotations:1.5.4")
+    compile("io.springfox:springfox-swagger2:2.3.1")
     // tag::tests[]
     testCompile("org.springframework.boot:spring-boot-starter-test")
     // end::tests[]
